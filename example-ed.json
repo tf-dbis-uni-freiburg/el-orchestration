@@ -1,0 +1,44 @@
+{
+	"task": "entity-disambiguation",
+	"params": 
+	{
+		
+	},
+
+	"data": 
+	{
+		"text": "Angela Merkel and Barack Obama are in Berlin.",
+		"knowledge-base": "DBpedia",
+		"language": "en",
+		"mentions": 
+		[
+			{
+				"start": 0,
+				"length": 13,
+				"candidates": 
+				[
+					"http:\/\/dbpedia.org\/resource\/Angela_Merkel"
+				]
+			},
+
+			{
+				"start": 18,
+				"length": 12,
+				"candidates": 
+				[
+					"http:\/\/dbpedia.org\/resource\/Barack_Obama"
+				]
+			},
+
+			{
+				"start": 38,
+				"length": 6,
+				"candidates": 
+				[
+					"http:\/\/dbpedia.org\/resource\/.berlin",
+					"http:\/\/dbpedia.org\/resource\/Berlin"
+				]
+			}
+		]
+	}
+}

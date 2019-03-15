@@ -1,0 +1,14 @@
+{
+"task": "candidate-generation",
+"params": { },
+"data": {
+"text": "Angela Merkel and Barack Obama are in Berlin.",
+"knowledge-base": "DBpedia",
+"language": "en",
+"mentions": [
+{ "start": 0, "length": 13 },
+{ "start": 18, "length": 12 },
+{ "start": 38, "length": 6 }
+]
+}
+}

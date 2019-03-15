@@ -1,0 +1,12 @@
+{
+"task": "mention-detection",
+"params": {
+"nlp-model": "ner",
+"min-link-probability": 0.0
+},
+"data": {
+"text": "Angela Merkel and Barack Obama are in Berlin.",
+"knowledge-base": "DBpedia",
+"language": "en"
+}
+}
